@@ -1,0 +1,25 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _Modal.default;
+  }
+});
+Object.defineProperty(exports, "ModalManager", {
+  enumerable: true,
+  get: function get() {
+    return _ModalManager.default;
+  }
+});
+
+var _Modal = _interopRequireDefault(require("./Modal"));
+
+var _ModalManager = _interopRequireDefault(require("./ModalManager"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//# sourceMappingURL=index.js.map

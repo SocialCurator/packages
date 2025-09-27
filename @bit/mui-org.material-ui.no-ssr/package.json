@@ -1,0 +1,20 @@
+{
+  "name": "mui-org.material-ui.no-ssr",
+  "version": "4.9.10",
+  "homepage": "https://bit.dev/mui-org/material-ui/no-ssr",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@material-ui/utils": "^4.9.6",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.16"
+    }
+  }
+}

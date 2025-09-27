@@ -1,0 +1,19 @@
+{
+  "name": "mui-org.material-ui.internal.transitions",
+  "version": "4.9.10",
+  "homepage": "https://bit.dev/mui-org/material-ui/internal/transitions",
+  "main": "dist/index.js",
+  "dependencies": {
+    "react-transition-group": "^4.3.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.16"
+    }
+  }
+}

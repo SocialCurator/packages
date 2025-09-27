@@ -1,0 +1,32 @@
+{
+  "name": "mui-org.material-ui.modal",
+  "version": "4.9.10",
+  "homepage": "https://bit.dev/mui-org/material-ui/modal",
+  "main": "dist/Modal/index.js",
+  "dependencies": {
+    "@material-ui/styles": "^4.9.10",
+    "@material-ui/utils": "^4.9.6",
+    "prop-types": "^15.7.2",
+    "@bit/mui-org.material-ui.backdrop": "4.9.10",
+    "@bit/mui-org.material-ui.portal": "4.9.10",
+    "@bit/mui-org.material-ui.internal.types": "4.9.10",
+    "@bit/mui-org.material-ui.styles": "4.9.10",
+    "@bit/mui-org.material-ui.internal.create-chained-function": "4.9.10",
+    "@bit/mui-org.material-ui.internal.owner-document": "4.9.10",
+    "@bit/mui-org.material-ui.internal.use-event-callback": "4.9.10",
+    "@bit/mui-org.material-ui.internal.use-fork-ref": "4.9.10",
+    "@bit/mui-org.material-ui.internal.get-scrollbar-size": "4.9.10",
+    "@bit/mui-org.material-ui.internal.owner-window": "4.9.10"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.16"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mui-org.material-ui.internal.owner-window",
+  "version": "4.9.10",
+  "homepage": "https://bit.dev/mui-org/material-ui/internal/owner-window",
+  "main": "dist/ownerWindow.js",
+  "dependencies": {
+    "@bit/mui-org.material-ui.internal.owner-document": "4.9.10"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.16"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "mui-org.material-ui.swipeable-drawer",
+  "version": "4.9.10",
+  "homepage": "https://bit.dev/mui-org/material-ui/swipeable-drawer",
+  "main": "dist/SwipeableDrawer/index.js",
+  "dependencies": {
+    "clsx": "^1.0.4",
+    "prop-types": "^15.7.2",
+    "@material-ui/types": "^5.0.1",
+    "@material-ui/styles": "^4.9.10",
+    "@material-ui/utils": "^4.9.6",
+    "@bit/mui-org.material-ui.drawer": "4.9.10",
+    "@bit/mui-org.material-ui.styles": "4.9.10",
+    "@bit/mui-org.material-ui.internal.capitalize": "4.9.10",
+    "@bit/mui-org.material-ui.no-ssr": "4.9.10",
+    "@bit/mui-org.material-ui.internal.transitions": "4.9.10",
+    "@bit/mui-org.material-ui.internal.owner-document": "4.9.10",
+    "@bit/mui-org.material-ui.internal.use-event-callback": "4.9.10"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.16"
+    }
+  }
+}
